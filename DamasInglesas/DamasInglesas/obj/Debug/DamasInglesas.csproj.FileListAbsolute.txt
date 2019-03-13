@@ -1,0 +1,9 @@
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\bin\Debug\DamasInglesas.exe.config
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\bin\Debug\DamasInglesas.exe
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\bin\Debug\DamasInglesas.pdb
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.Form1.resources
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.Properties.Resources.resources
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.csproj.GenerateResource.Cache
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.exe
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.pdb
+B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.csprojResolveAssemblyReference.cache
