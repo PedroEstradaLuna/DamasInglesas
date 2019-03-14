@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DamasInglesas
 {
@@ -11,7 +12,7 @@ namespace DamasInglesas
      * 0 = lugar vacio
      * -1 = Fichas negras
      */
-    class Tablero
+    public class Tablero
     {
         private int[,] matriz;
         private int n;
@@ -24,11 +25,11 @@ namespace DamasInglesas
             nNegras = 0;
             n = 8;
             matriz = new int[n,n];
-            init();
-            imprimir();
+            inicializarTablero();
+            //imprimir();
         }
 
-        public void init()
+        public void inicializarTablero()
         {
             for(int i=0; i<n; i++)
             {
@@ -53,20 +54,7 @@ namespace DamasInglesas
                 }
             }
         }
-
-      /*  public int[] getPos(int i, int j )
-        {
-            int[] movs;
-            if(matriz[i-1,j-1] == 2)
-            {
-                movs[]
-            }
-            if(matriz[i-1,j+1] == 2)
-            {
-
-            }
-        }*/
-
+ 
         public void imprimir()
         {
             for (int i = 0; i < n; i++)
@@ -77,6 +65,32 @@ namespace DamasInglesas
                 }
                 Console.WriteLine();
             }
+        }
+
+        public int[,] getMatriz()
+        {
+            return matriz;
+        }
+
+        public void updateMatriz(int[,] m)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    matriz[i, j] = m[i, j];
+                }
+            }
+        }
+
+        public int getCountBlancas()
+        {
+            return nBlancas;
+        }
+
+        public int getCountNegras()
+        {
+            return nNegras;
         }
     }
 }
