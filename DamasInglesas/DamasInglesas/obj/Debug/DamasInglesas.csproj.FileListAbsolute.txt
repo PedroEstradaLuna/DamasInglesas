@@ -7,3 +7,12 @@ B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.csproj.Gene
 B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.exe
 B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.pdb
 B:\soll\Ejemplos\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.csprojResolveAssemblyReference.cache
+B:\Github\Damas\DamasInglesas\DamasInglesas\bin\Debug\DamasInglesas.exe.config
+B:\Github\Damas\DamasInglesas\DamasInglesas\bin\Debug\DamasInglesas.exe
+B:\Github\Damas\DamasInglesas\DamasInglesas\bin\Debug\DamasInglesas.pdb
+B:\Github\Damas\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.csprojResolveAssemblyReference.cache
+B:\Github\Damas\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.Form1.resources
+B:\Github\Damas\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.Properties.Resources.resources
+B:\Github\Damas\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.csproj.GenerateResource.Cache
+B:\Github\Damas\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.exe
+B:\Github\Damas\DamasInglesas\DamasInglesas\obj\Debug\DamasInglesas.pdb

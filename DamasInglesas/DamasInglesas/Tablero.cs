@@ -18,14 +18,18 @@ namespace DamasInglesas
         private int n;
         private int nBlancas;
         private int nNegras;
+        private int nQueens;
+        private double f;
 
         public Tablero()
         {
             nBlancas = 0;
             nNegras = 0;
+            nQueens = 0;
             n = 8;
             matriz = new int[n,n];
             inicializarTablero();
+            f = 0;
             //imprimir();
         }
 
@@ -92,5 +96,20 @@ namespace DamasInglesas
         {
             return nNegras;
         }
+
+        public int getQueens()
+        {
+            return nQueens;
+        }
+
+        public void setNegra(List<int> origen, List<int> destino)
+        {
+            matriz[origen[0], origen[1]] = 2;
+            matriz[destino[0], destino[1]] = -1;
+        }
+
+        public double getF() { return f; }
+
+        public void setF(double f) { this.f = f; }
     }
 }
